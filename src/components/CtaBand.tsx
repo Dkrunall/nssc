@@ -1,7 +1,7 @@
 import { site } from "@/config/site";
 import { CallButton, PhoneLinks, WhatsAppButton } from "./ContactButtons";
 import { EnquiryForm } from "./EnquiryForm";
-import { MailIcon } from "./Icons";
+import { MailIcon, PinIcon } from "./Icons";
 import { Section } from "./ui";
 
 export function CtaBand({
@@ -35,6 +35,10 @@ export function CtaBand({
                 </a>
               </li>
             ))}
+            <li className="flex items-start gap-2 text-base text-ivory-50/85">
+              <PinIcon className="mt-1 h-5 w-5 shrink-0 text-gold-400" />
+              <address className="not-italic">{site.address.full}</address>
+            </li>
           </ul>
           <div className="mt-8 flex flex-wrap gap-3">
             <CallButton variant="gold" />

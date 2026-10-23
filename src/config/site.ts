@@ -12,14 +12,14 @@ export const site = {
   ],
   emails: ["nayrasharessolution@gmail.com", "vickydarji55@gmail.com"],
   address: {
-    line: "Dahisar (E)",
+    line: "R-30, Sai Nath Wadi Society, S.P Road, Near Shital Hotel, Ghartan Pada No-1, Dahisar East",
     city: "Mumbai",
     postalCode: "400068",
     region: "Maharashtra",
     country: "IN",
-    // TODO: owner to add [FULL OFFICE ADDRESS / LANDMARK]
-    full: "[FULL OFFICE ADDRESS / LANDMARK], Dahisar (E), Mumbai - 400068, Maharashtra, India",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Dahisar+East+Mumbai+400068",
+    full: "R-30, Sai Nath Wadi Society, S.P Road, Near Shital Hotel, Ghartan Pada No-1, Dahisar East, Mumbai - 400068, Maharashtra, India",
+    mapsUrl:
+      "https://www.google.com/maps/search/?api=1&query=R-30+Sai+Nath+Wadi+Society+S.P+Road+Near+Shital+Hotel+Ghartan+Pada+No-1+Dahisar+East+Mumbai+400068",
   },
   // TODO: owner to add [BUSINESS HOURS]
   hours: "[BUSINESS HOURS]",

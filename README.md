@@ -42,7 +42,6 @@ Search the project for these markers:
 
 - [ ] `[WHATSAPP NUMBER]`: set `NEXT_PUBLIC_WHATSAPP_NUMBER`
 - [ ] `[WEBSITE DOMAIN]`: set `NEXT_PUBLIC_SITE_URL`
-- [ ] `[FULL OFFICE ADDRESS / LANDMARK]`: `src/config/site.ts`
 - [ ] `[BUSINESS HOURS]`: `src/config/site.ts`
 - [ ] `[TESTIMONIALS]`: add real entries in `src/content/testimonials.ts`
 - [ ] `[FEES / HOW CHARGES WORK]`: review the Fees section in `src/app/how-it-works/page.tsx` (no numbers by design)
