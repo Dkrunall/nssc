@@ -13,6 +13,7 @@ import { FaqList } from "@/components/Faq";
 import { CtaBand } from "@/components/CtaBand";
 import { Testimonials } from "@/components/Testimonials";
 import { Monogram } from "@/components/Monogram";
+import { InsuranceBand } from "@/components/InsuranceBand";
 import { Flyer } from "@/components/Flyer";
 import { Reveal } from "@/components/Reveal";
 import { CheckIcon } from "@/components/Icons";
@@ -101,6 +102,8 @@ export default function Home() {
           <Flyer />
         </div>
       </Section>
+
+      <InsuranceBand />
 
       <Section tone="sand">
         <div className="grid items-center gap-10 md:grid-cols-[auto_1fr]">
