@@ -3,7 +3,7 @@ import { services } from "@/content/services";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { ServiceCard } from "@/components/ServiceCard";
-import { InsuranceBand } from "@/components/InsuranceBand";
+import { OtherServices } from "@/components/OtherServices";
 import { CtaBand } from "@/components/CtaBand";
 import { Section } from "@/components/ui";
 
@@ -30,7 +30,7 @@ export default function ServicesPage() {
           ))}
         </div>
       </Section>
-      <InsuranceBand />
+      <OtherServices />
       <CtaBand />
     </>
   );

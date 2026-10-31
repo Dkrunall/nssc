@@ -1,7 +1,12 @@
 import { z } from "zod";
 import { services } from "@/content/services";
+import { otherServices } from "@/content/otherServices";
 
-export const serviceOptions = [...services.map((s) => s.name), "Insurance", "Not sure"] as const;
+export const serviceOptions = [
+  ...services.map((s) => s.name),
+  ...otherServices.map((s) => s.name),
+  "Not sure",
+] as const;
 
 const indianMobile = /^(?:\+91[\s-]?|91[\s-]?|0)?[6-9]\d{9}$/;
 
